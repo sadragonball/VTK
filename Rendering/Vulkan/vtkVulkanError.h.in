@@ -1,0 +1,5 @@
+#pragma once
+
+#ifndef NDEBUG
+    #define CHECK_VK_ERROR(x)
+#endif

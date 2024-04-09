@@ -20,3 +20,6 @@ xcuserdata
 # Exclude Visual Studio stuff
 .vs*
 CMakeSettings.json
+
+cmake-build*
+.idea

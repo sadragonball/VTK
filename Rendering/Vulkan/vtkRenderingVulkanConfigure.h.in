@@ -1,0 +1,13 @@
+#pragma once
+
+/* This header contains build settings for the vtkRenderingOpenGL2 module. */
+/* It provides some compatibility with the vtkRenderingOpenGL module. */
+
+#ifndef VTK_VULKAN
+#define VTK_VULKAN
+#endif
+
+#ifdef WIN32
+#define VK_USE_PLATFORM_WIN32_KHR
+#define NOMINMAX
+#endif
